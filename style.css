@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+html {
+  /*10px*/
+  font-size: 62.5%;
+}
+
 body {
     text-align: center;
     background-color: #011F3F;
@@ -10,23 +15,23 @@ body {
   
   #level-title {
     font-family: 'Press Start 2P', cursive;
-    font-size: 3rem;
+    font-size: 4rem;
     margin:  5%;
     color: #FEF2BF;
   }
   
   .container {
     display: block;
-    width: 50%;
+    width: 100%;
     margin: auto;
-  
+    background-color: pink;
   }
   
   .btn {
     margin: 25px;
     display: inline-block;
-    height: 200px;
-    width: 200px;
+    height: 20rem;
+    width: 20rem;
     border: 10px solid black;
     border-radius: 20%;
   }
