@@ -88,7 +88,7 @@ $(".btn").on("click", function () {
 });
 
 // Start the game on keydown
-$(document).on("keydown", function () {
+$(document).on("keydown touchstart", function () {
     if (firstKeyPress) {
         firstKeyPress = false;
         nextSequence();
